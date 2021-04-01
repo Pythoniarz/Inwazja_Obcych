@@ -14,9 +14,9 @@ class Settings:
         self.ship_limit = 3
 
         # Ustawienia dot. pocisku.
-        self.bullet_width = 7
+        self.bullet_width = 4
         self.bullet_height = 67
-        self.bullet_color = (230, 180, 250)
+        self.bullet_color = (50, 255, 50)
         self.bullets_allowed = 6
 
         # Ustawienia dotyczące obcego.
