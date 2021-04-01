@@ -13,7 +13,7 @@ class Ship(Sprite):
         self.screen_rect = ai_game.screen.get_rect()
 
         # Wczytanie obrazu statku kosmicznego i pobranie jego prostokąta.
-        self.image = pygame.image.load('images/ship.bmp')
+        self.image = pygame.image.load('images/ship.png')
         self.rect = self.image.get_rect()
 
         # Każdy nowy statek kosmiczny pojawia się na dole ekranu.
